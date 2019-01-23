@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582e6879911994ec08c153deb52c0765, type: 3}
+  m_Name: RunePillar
+  m_EditorClassIdentifier: 
+  name: Rune Pillar
+  assetPath: Assets/Buildings/Other/RunePillar/RunePillar.prefab
+  picture: {fileID: 0}
+  cost: 30
+  maxCount: -1
+  allowedOnRoads: 0
+  onlyAllowedOnRoads: 0
+  upgradeOnly: 0
+  targetingPreference: 0
+  damageProfile:
+    projectile: 1
+    reloadTime: 1.2
+    damage: 4
+    unarmoredMultiplier: 1
+    armorMultiplier: 1
+    undeadMultiplier: 2
+    livingMultiplier: 0.9
